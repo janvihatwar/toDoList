@@ -1,8 +1,45 @@
-# React + Vite
+# To-Do Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and functional To-Do Application built with React to manage tasks efficiently.
 
-Currently, two official plugins are available:
+## Features
+- Add, delete tasks and set priority.
+- Responsive design for both desktop and mobile.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+[Demo Link](https://janvihatwar.github.io/toDoList)
+
+## Installation and Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/to-do-application.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the app:
+   ```bash
+   npm start
+   ```
+
+## Deployment to GitHub Pages
+1. Install `gh-pages`:
+   ```bash
+   npm install gh-pages --save-dev
+   ```
+2. Add this to `package.json`:
+   ```json
+   "homepage": "https://<your-username>.github.io/to-do-application",
+   "scripts": {
+       "predeploy": "npm run build",
+       "deploy": "gh-pages -d build"
+   }
+   ```
+3. Deploy:
+   ```bash
+   npm run deploy
+   ```
+
+### Thank you for checking out the To-Do Application! 
+### Happy coding!
